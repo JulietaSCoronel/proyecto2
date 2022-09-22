@@ -1,0 +1,13 @@
+header nav {
+  background-color: #FFFA66;
+}
+header nav .logo {
+  width: 200px;
+  height: 70px;
+}
+
+main .portada {
+  background-image: url("../images/toro.jpg");
+  background-size: cover;
+  height: 90vh;
+}/*# sourceMappingURL=estilos.css.map */
