@@ -1,9 +1,25 @@
 footer{
-    height: 10vh;
+    height: auto;
     background-color: $color-bordo;
 
     i{
         color: $color-blanco;
         font-size: 30px;
+    &:hover {
+        transform: scale(1.2);
+    }
+    .icono-instagram:hover{
+        transform: scale(1.2);
+    }
+    }
+    .boton-arriba{
+
+            border: 1px solid $color-blanco;
+            background-color: $color-blanco;
+            color: $color-bordo;
+            padding: 10px;
+        & a{
+            color: $color-bordo;
+}   
     }
 }

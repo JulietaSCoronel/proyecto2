@@ -5,3 +5,22 @@
 @import "./mixins";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Reem+Kufi+Ink&family=Titillium+Web&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: $letra-monserrat;
+}
