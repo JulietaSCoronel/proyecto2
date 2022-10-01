@@ -1,1 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Reem+Kufi+Ink&family=Titillium+Web&display=swap");/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Reem+Kufi+Ink&family=Titillium+Web&display=swap");
+header nav {
+  background-color: white;
+}
+header nav .logo {
+  width: 140px;
+  height: 50px;
+}
+
+section {
+  /* contacto */
+}
+section form .boton-contacto {
+  border: 1px solid #B01B39;
+  background-color: #B01B39;
+  color: white;
+  padding: 10px;
+}
+
+/* portada */
+.portada {
+  background-color: #B01B39;
+}
+
+.titulo-portada, .texto-portada p, h4 {
+  color: white;
+}
+
+.texto-portada span {
+  color: #262223;
+}
+
+.boton-portada {
+  border: 1px solid white;
+  background-color: white;
+  color: #B01B39;
+  padding: 10px;
+}
+
+/* UBICACION */
+#ubicacion {
+  height: 400px;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.ubicacion h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.ubicacion p {
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 575.98px) {
+  .texto-portada {
+    width: 90% !important;
+  }
+}
+footer {
+  height: 10vh;
+  background-color: #B01B39;
+}
+footer i {
+  color: white;
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
