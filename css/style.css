@@ -59,6 +59,9 @@ section form .boton-contacto {
   .texto-portada {
     width: 90% !important;
   }
+  .texto-portada p {
+    display: none;
+  }
 }
 footer {
   height: auto;
