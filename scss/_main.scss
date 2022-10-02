@@ -7,6 +7,14 @@ section{
             color: $color-blanco;
             padding: 10px;
         }
+        .form-control{
+            border-bottom: 1px solid $color-bordo;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-radius: 0%;
+            
+        }
     }
 }
     /* portada */

@@ -22,6 +22,13 @@ section form .boton-contacto {
   color: white;
   padding: 10px;
 }
+section form .form-control {
+  border-bottom: 1px solid #B01B39;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0%;
+}
 
 /* portada */
 .portada {
