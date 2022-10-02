@@ -47,7 +47,6 @@ section form .form-control {
   border: 1px solid white;
   background-color: white;
   color: #B01B39;
-  padding: 10px;
 }
 
 /* UBICACION */
@@ -80,23 +79,19 @@ footer {
   height: auto;
   background-color: #B01B39;
 }
-footer i {
+footer .iconos-footer a {
   color: white;
   font-size: 30px;
 }
-footer i:hover {
+footer .iconos-footer a:hover {
   transform: scale(1.2);
 }
-footer i .icono-instagram:hover {
+footer .iconos-footer a .icono-instagram:hover {
   transform: scale(1.2);
 }
 footer .boton-arriba {
   border: 1px solid white;
   background-color: white;
-  color: #B01B39;
-  padding: 10px;
-}
-footer .boton-arriba a {
   color: #B01B39;
 }
 
@@ -109,6 +104,9 @@ footer .boton-arriba a {
 a {
   color: black;
   text-decoration: none;
+}
+a:hover {
+  color: black;
 }
 
 .row {

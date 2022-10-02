@@ -2,7 +2,7 @@ footer{
     height: auto;
     background-color: $color-bordo;
 
-    i{
+    .iconos-footer a{
         color: $color-blanco;
         font-size: 30px;
     &:hover {
@@ -17,9 +17,5 @@ footer{
             border: 1px solid $color-blanco;
             background-color: $color-blanco;
             color: $color-bordo;
-            padding: 10px;
-        & a{
-            color: $color-bordo;
 }   
     }
-}
