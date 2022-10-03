@@ -89,6 +89,13 @@ section{
 /* ====================== TERMINA ENTRENADORES  ===================*/  
 
 /* ====================== EMPIEZA REGISTRATE  ===================*/    
+#registrate{
+    .boton-registro{
+        @extend .boton-portada;
+        background-color: $color-bordo;
+        color: $color-blanco;
+    }
+}
 /* ====================== TERMINA REGISTRATE  ===================*/  
 
 /* ====================== EMPIEZA DIAS Y HORARIOS  ===================*/    

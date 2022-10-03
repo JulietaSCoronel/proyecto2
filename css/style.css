@@ -43,7 +43,7 @@ section form .form-control {
   color: #262223;
 }
 
-.boton-portada {
+.boton-portada, #registrate .boton-registro {
   border: 1px solid white;
   background-color: white;
   color: #B01B39;
@@ -101,6 +101,11 @@ section form .form-control {
 
 /* ====================== TERMINA ENTRENADORES  ===================*/
 /* ====================== EMPIEZA REGISTRATE  ===================*/
+#registrate .boton-registro {
+  background-color: #B01B39;
+  color: white;
+}
+
 /* ====================== TERMINA REGISTRATE  ===================*/
 /* ====================== EMPIEZA DIAS Y HORARIOS  ===================*/
 /* ====================== TERMINA DIAS Y HORARIOS  ===================*/
