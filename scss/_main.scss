@@ -1,4 +1,12 @@
+main{
+    .titulo-hero{
+        @extend .titulo-registrate;
+        color: $color-blanco;
+    }
+}
 section{
+    
+    
     /* contacto */
     form{
         .boton-contacto{

@@ -18,6 +18,10 @@ header nav li:hover {
     transform: none;
   }
 }
+main .titulo-hero {
+  color: white;
+}
+
 section {
   /* contacto */
 }
@@ -117,10 +121,10 @@ section form .form-control {
   border: 1px solid #B01B39;
 }
 
-.titulo-registrate {
+.titulo-registrate, main .titulo-hero {
   background-color: #B01B39;
 }
-.titulo-registrate h1 {
+.titulo-registrate h1, main .titulo-hero h1 {
   color: white;
 }
 
@@ -175,6 +179,10 @@ footer .copyright i {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 0 !important;
 }
 
 a {
