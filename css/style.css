@@ -13,6 +13,11 @@ header nav li:hover {
   transform: scale(1.1);
 }
 
+@media (max-width: 575.98px) {
+  nav li:hover {
+    transform: none;
+  }
+}
 section {
   /* contacto */
 }

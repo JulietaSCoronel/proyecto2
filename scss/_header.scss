@@ -13,3 +13,8 @@ header{
     }
     }
 }
+@media (max-width: 575.98px) {
+    nav li:hover{
+        transform: none;
+    }
+}
