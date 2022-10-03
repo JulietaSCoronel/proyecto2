@@ -67,6 +67,18 @@ section form .form-control {
   font-family: "Open Sans", sans-serif;
 }
 
+/* ====================== EMPIEZA DIAS Y HORARIOS  ===================*/
+#dias-horarios {
+  background-color: #262223;
+}
+
+/* ====================== TERMINA DIAS Y HORARIOS  ===================*/
+/* ====================== EMPIEZA ENTRENADORES  ===================*/
+/* ====================== TERMINA ENTRENADORES  ===================*/
+/* ====================== EMPIEZA REGISTRATE  ===================*/
+/* ====================== TERMINA REGISTRATE  ===================*/
+/* ====================== EMPIEZA DIAS Y HORARIOS  ===================*/
+/* ====================== TERMINA DIAS Y HORARIOS  ===================*/
 @media (max-width: 575.98px) {
   .texto-portada {
     width: 90% !important;
