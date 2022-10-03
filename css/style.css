@@ -135,8 +135,14 @@ section .iconos-redes a:hover {
 }
 
 /* ====================== TERMINA REGISTRATE  ===================*/
-/* ====================== EMPIEZA DIAS Y HORARIOS  ===================*/
-/* ====================== TERMINA DIAS Y HORARIOS  ===================*/
+/* ====================== EMPIEZA NOSOTROS  ===================*/
+.titulo-nosotros {
+  border: 1px solid #B01B39;
+  background-color: #B01B39;
+  color: white;
+}
+
+/* ====================== TERMINA NOSOTROS  ===================*/
 @media (max-width: 575.98px) {
   .texto-portada {
     width: 90% !important;

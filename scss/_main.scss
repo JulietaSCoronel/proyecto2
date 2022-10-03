@@ -126,8 +126,13 @@ section{
 
 /* ====================== TERMINA REGISTRATE  ===================*/  
 
-/* ====================== EMPIEZA DIAS Y HORARIOS  ===================*/    
-/* ====================== TERMINA DIAS Y HORARIOS  ===================*/  
+/* ====================== EMPIEZA NOSOTROS  ===================*/    
+.titulo-nosotros{
+    border: 1px solid $color-bordo;
+    background-color: $color-bordo;
+    color: $color-blanco;
+}
+/* ====================== TERMINA NOSOTROS  ===================*/  
 
  // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
