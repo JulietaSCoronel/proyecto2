@@ -12,10 +12,22 @@ footer{
         transform: scale(1.2);
     }
     }
-    .boton-arriba{
+    .copyright{
+        color: $color-blanco;
 
-            border: 1px solid $color-blanco;
-            background-color: $color-blanco;
-            color: $color-bordo;
-}   
+        & i{
+            color: $color-blanco;
+        }
+    }
+    }
+    .boton-redondo{
+        display: block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: $color-gris;
+        transition: background 0.5s;
+        & i{
+            color: $color-blanco;
+        }
     }

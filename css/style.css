@@ -145,10 +145,23 @@ footer .iconos-footer a:hover {
 footer .iconos-footer a .icono-instagram:hover {
   transform: scale(1.2);
 }
-footer .boton-arriba {
-  border: 1px solid white;
-  background-color: white;
-  color: #B01B39;
+footer .copyright {
+  color: white;
+}
+footer .copyright i {
+  color: white;
+}
+
+.boton-redondo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #262223;
+  transition: background 0.5s;
+}
+.boton-redondo i {
+  color: white;
 }
 
 * {
