@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Registrate</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script><!-- CAPTCHA -->
     <link rel="shortcut icon" href="../images/apple-icon-114x114.png" type="image/x-icon"><!-- ICONO DE PESTAÑA -->
     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> <!--INSTALACION ANIMATE-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!-- AOS -->
@@ -52,25 +53,33 @@
 
 <!-- EMPIEZA MAIN -->
 <main>
-    <section id="registrate">
-            <form class="formulario-registro text-center row d-flex justify-content-center" >
-                <div class="mb-3 col-8 ">
+    <section class="row " id="registrate">
+        <div class="titulo-registrate mt-3">
+            <h1 class="fs-1 p-3 ">REGISTRATE</h1>
+        </div>
+            <form class="formulario-registro text-center col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 mb-3 p-3" >
+                <div class="mb-3 col">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="nombre" >
                 </div>
-                <div class="mb-3 col-8">
+                <div class="mb-3 col">
                     <label for="apellido" class="form-label">Apellido</label>
                     <input type="text" class="form-control" id="apellido" >
                 </div>
-                <div class="mb-3 col-8">
+                <div class="mb-3 col">
+                    <label for="Fecha" class="form-label">Fecha de nacimiento</label>
+                    <input type="date" class="form-control text-center id="fecha" >
+                </div>
+                <div class="mb-3 col">
                     <label for="email" class="form-label">Correo electronico</label>
                     <input type="email" class="form-control" id="email" >
                 </div>
-                <div class="mb-3 col-8">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <div class="mb-3 col">
+                <label for="password" class="form-label">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-                <button type="submit" class="boton-registro p-2 col-6 mb-3">REGISTRARSE</button>
+                <button type="submit" class="boton-registro p-2 col-6 mb-3 mx-auto">REGISTRARSE</button>
+                <p>Al registrarte aceptas las <a href="#" class="text-decoration-underline">politicas de privacidad</a> de Misfits</p>
             </form>
     </section>
 </main>

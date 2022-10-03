@@ -95,7 +95,25 @@ section{
         background-color: $color-bordo;
         color: $color-blanco;
     }
-}
+    .formulario-registro{
+        border: 1px solid $color-bordo;
+
+        & a{
+            color: $color-bordo
+        }
+    }
+    }
+    .form-control{
+        border: 1px solid $color-bordo;   
+    }
+    .titulo-registrate{
+        background-color: $color-bordo;
+
+        & h1{
+            color: $color-blanco;
+        }
+    }
+
 /* ====================== TERMINA REGISTRATE  ===================*/  
 
 /* ====================== EMPIEZA DIAS Y HORARIOS  ===================*/    

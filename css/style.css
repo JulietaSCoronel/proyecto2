@@ -105,6 +105,23 @@ section form .form-control {
   background-color: #B01B39;
   color: white;
 }
+#registrate .formulario-registro {
+  border: 1px solid #B01B39;
+}
+#registrate .formulario-registro a {
+  color: #B01B39;
+}
+
+.form-control {
+  border: 1px solid #B01B39;
+}
+
+.titulo-registrate {
+  background-color: #B01B39;
+}
+.titulo-registrate h1 {
+  color: white;
+}
 
 /* ====================== TERMINA REGISTRATE  ===================*/
 /* ====================== EMPIEZA DIAS Y HORARIOS  ===================*/
