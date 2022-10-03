@@ -56,7 +56,36 @@ section{
 }
 /* ====================== TERMINA DIAS Y HORARIOS  ===================*/    
 
-/* ====================== EMPIEZA ENTRENADORES  ===================*/    
+/* ====================== EMPIEZA ENTRENADORES  ===================*/  
+#entrenadores{
+    .jj{
+        height: 80vh;
+    }
+    .titulo-entrenadores{
+        border: 1px solid $color-bordo;
+        background-color: $color-bordo;
+        color: $color-blanco;
+    }
+    .card-title{
+        color: black;
+        font-size: 3em;
+        background-color: rgba(128, 128, 128, 0.783);
+        border-radius: 10px solid $color-gris;
+    }
+    .card:hover img{
+        opacity: .3;
+        transform: scale(1.1);
+    }
+    .card h5{
+        display: none;
+    }
+    .card:hover h5{
+        display: block;
+    }
+
+    }
+    
+
 /* ====================== TERMINA ENTRENADORES  ===================*/  
 
 /* ====================== EMPIEZA REGISTRATE  ===================*/    

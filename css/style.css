@@ -74,6 +74,31 @@ section form .form-control {
 
 /* ====================== TERMINA DIAS Y HORARIOS  ===================*/
 /* ====================== EMPIEZA ENTRENADORES  ===================*/
+#entrenadores .jj {
+  height: 80vh;
+}
+#entrenadores .titulo-entrenadores {
+  border: 1px solid #B01B39;
+  background-color: #B01B39;
+  color: white;
+}
+#entrenadores .card-title {
+  color: black;
+  font-size: 3em;
+  background-color: rgba(128, 128, 128, 0.783);
+  border-radius: 10px solid #262223;
+}
+#entrenadores .card:hover img {
+  opacity: 0.3;
+  transform: scale(1.1);
+}
+#entrenadores .card h5 {
+  display: none;
+}
+#entrenadores .card:hover h5 {
+  display: block;
+}
+
 /* ====================== TERMINA ENTRENADORES  ===================*/
 /* ====================== EMPIEZA REGISTRATE  ===================*/
 /* ====================== TERMINA REGISTRATE  ===================*/
