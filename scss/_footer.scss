@@ -1,16 +1,6 @@
 footer{
     height: auto;
     background-color: $color-bordo;
-
-    .iconos-footer a{
-        color: $color-blanco;
-        font-size: 30px;
-    &:hover {
-        transform: scale(1.2);
-    }
-    .icono-instagram:hover{
-        transform: scale(1.2);
-    }
     }
     .copyright{
         color: $color-blanco;
@@ -18,7 +8,6 @@ footer{
         & i{
             color: $color-blanco;
         }
-    }
     }
     .boton-redondo{
         display: block;

@@ -20,10 +20,16 @@ section{
             border-top: none;
             border-left: none;
             border-right: none;
-            border-radius: 0%;
-            
+            border-radius: 0%;    
         }
+        
     }
+    .iconos-redes a{
+        font-size: 30px;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
 }
     /* portada */
     .portada{

@@ -38,6 +38,12 @@ section form .form-control {
   border-right: none;
   border-radius: 0%;
 }
+section .iconos-redes a {
+  font-size: 30px;
+}
+section .iconos-redes a:hover {
+  transform: scale(1.2);
+}
 
 /* portada */
 .portada {
@@ -146,20 +152,11 @@ footer {
   height: auto;
   background-color: #B01B39;
 }
-footer .iconos-footer a {
-  color: white;
-  font-size: 30px;
-}
-footer .iconos-footer a:hover {
-  transform: scale(1.2);
-}
-footer .iconos-footer a .icono-instagram:hover {
-  transform: scale(1.2);
-}
-footer .copyright {
+
+.copyright {
   color: white;
 }
-footer .copyright i {
+.copyright i {
   color: white;
 }
 
