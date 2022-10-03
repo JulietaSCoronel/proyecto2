@@ -81,7 +81,6 @@ section form .form-control {
 }
 #entrenadores .card-title {
   color: black;
-  font-size: 3em;
   background-color: rgba(128, 128, 128, 0.783);
   border-radius: 10px solid #262223;
 }
@@ -89,10 +88,10 @@ section form .form-control {
   opacity: 0.3;
   transform: scale(1.1);
 }
-#entrenadores .card h5 {
+#entrenadores .texto-entrenadores {
   display: none;
 }
-#entrenadores .card:hover h5 {
+#entrenadores .card:hover .texto-entrenadores {
   display: block;
 }
 
@@ -129,6 +128,9 @@ section form .form-control {
   }
   .texto-portada p {
     display: none;
+  }
+  .texto-entrenadores {
+    width: 200px;
   }
 }
 footer {

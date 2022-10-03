@@ -65,7 +65,6 @@ section{
     }
     .card-title{
         color: black;
-        font-size: 3em;
         background-color: rgba(128, 128, 128, 0.783);
         border-radius: 10px solid $color-gris;
     }
@@ -73,10 +72,10 @@ section{
         opacity: .3;
         transform: scale(1.1);
     }
-    .card h5{
+    .texto-entrenadores{
         display: none;
     }
-    .card:hover h5{
+    .card:hover .texto-entrenadores{
         display: block;
     }
 
@@ -123,5 +122,8 @@ section{
     }
     .texto-portada p{
         display: none;
+    }
+    .texto-entrenadores{
+        width: 200px;
     }
 }
