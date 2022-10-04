@@ -184,6 +184,13 @@ footer {
   box-sizing: border-box;
 }
 
+.texto-404 {
+  font-size: 6em;
+  font-weight: bolder;
+  margin-left: 30%;
+  color: white;
+}
+
 h1 {
   margin-bottom: 0 !important;
 }
